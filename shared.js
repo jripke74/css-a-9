@@ -24,8 +24,8 @@ if (modalNoButton) {
 function closeModal() {
   if (modal) {
     modal.classList.remove('open');
-    backdrop.classList.remove('open');
   }
+  backdrop.classList.remove('open');
 }
 
 toggleButton.addEventListener('click', function () {
